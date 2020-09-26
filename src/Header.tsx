@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import SearchIcon from '@material-ui/icons/Search';
+import { Search, ShoppingBasket } from '@material-ui/icons';
 
 const Header: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Header: React.FC = () => {
       />
       <div className="header__search">
         <input type="text" className="header__searchInput" />
-        <SearchIcon className="header__searchIcon" />
+        <Search className="header__searchIcon" />
       </div>
       <div className="header__nav">
         <div className="header__option">
@@ -26,6 +26,10 @@ const Header: React.FC = () => {
         <div className="header__option">
           <span className="header__optionLineOne">Your</span>
           <span className="header__optionLineTwo">Prime</span>
+        </div>
+        <div className="header__optionBasket">
+          <ShoppingBasket />
+          <span className="header__optionLineTwo header__basketCount">0</span>
         </div>
       </div>
     </div>
