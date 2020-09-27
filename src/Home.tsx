@@ -56,9 +56,9 @@ const Home: React.FC = () => {
         <div className="home__row">
           <Product
             id="6"
-            title="The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (Management of Innovation and Change)"
-            price={89.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Ngk5BJi1L._SX331_BO1,204,203,200_.jpg"
+            title="Samsung UN65RU7300FXZA Curved 65-Inch 4K UHD 7 Series Ultra HD Smart TV with HDR and Alexa Compatibility (2019 Model)"
+            price={697.99}
+            image="https://images-na.ssl-images-amazon.com/images/I/81u1zPEUChL._AC_SX450_.jpg"
             rating={3}
           />
         </div>
